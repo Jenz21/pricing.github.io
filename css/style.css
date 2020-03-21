@@ -1,0 +1,479 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans:400,700&display=swap');
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pricing {
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px -10px rgba(0, 0, 0, 0.75)
+}
+
+.basic_wrap,
+.business_wrap,
+.pro_wrap {
+    max-width: 514px;
+    width: 100%;
+    float: left;
+}
+
+.basic_wrap {
+    max-width: 514px;
+}
+
+.business_wrap {
+    max-width: 260px;
+}
+
+.pro_wrap {
+    max-width: 250px;
+}
+
+.basic_header_wrap {
+    width: 50%;
+    float: right;
+}
+
+.best_value {
+    background: #A7CA1A;
+    text-align: center;
+    position: relative;
+    margin-top: -20px;
+}
+
+.best_value p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    line-height: 9px;
+    padding: 6px 0 5px;
+}
+
+header h4 {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+header .price p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    line-height: 20px;
+    color: #636363;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+header .price p span,
+header .trialprice p span {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    color: #969696;
+}
+
+header .trialprice p {
+    font-size: 26px;
+    margin: 0;
+}
+
+header button.btn,
+footer button.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #7D6E99 !important;
+    width: 198px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0;
+    outline: 0;
+}
+
+footer button.btn {
+    margin: 36px 0 32px;
+}
+
+header button.btn.btn_business,
+footer button.btn.btn_business {
+    background-color: #A7CA1A !important;
+}
+
+header button.btn.btn_pro,
+footer button.btn.btn_pro {
+    background-color: #4C7DA5 !important;
+}
+
+header button.btn:hover,
+header button.btn:focus,
+footer button.btn:hover,
+footer button.btn:focus {
+    background-color: #7D6E99;
+    opacity: 0.8;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid #efefef;
+    margin-bottom: -1px;
+}
+
+.card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.card-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #efefef;
+    line-height: 16px;
+    padding: 0;
+    height: 44px;
+}
+
+.card-header a {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+}
+
+.card-header h6 {
+    padding-left: 22px;
+}
+
+.card-header h6,
+.card-header .basic_content {
+    color: #000000;
+    font-weight: bold;
+}
+
+.business_wrap .card-header,
+.pro_wrap .card-header {
+    padding-left: 0;
+}
+
+i.fa.fa-angle-down {
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+
+i.fa.fa-question-circle-o {
+    margin-left: 8px;
+    color: #a7ca1a;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-header,
+.card-body {
+    padding-right: 0;
+}
+
+
+.price_box header,
+.basic_content {
+    text-align: center;
+}
+
+
+.icon-questionmark {
+    background-image: url('../images/icon-questionmark.png');
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+}
+
+.title_content,
+.basic_content {
+    width: 50%;
+    float: left;
+}
+
+.card-body li {
+    border-bottom: 1px solid #efefef;
+    line-height: 23px;
+    height: 44px;
+}
+
+.header_left,
+.header_right,
+.card-body li .title_content,
+.card-body li .basic_content,
+.footer_left,
+.footer_right {
+    border-right: 1px solid #efefef;
+}
+
+.pro_wrap .header_left,
+.pro_wrap .header_right,
+.pro_wrap .card-body li .basic_content {
+    border: none;
+}
+
+.basic_content p.yes_content {
+    font-size: 0;
+}
+
+.basic_content p.yes_content span.icon-check {
+    background-image: url('../images/icon-check.png');
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+.card-body li .title_content p {
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+.card-body li p {
+    margin: 0;
+    height: 44px;
+    padding: 10px 0;
+    color: #777777;
+}
+
+li.long_text .title_content p {
+    margin: 0;
+    padding: 4px 15px 0 45px;
+    line-height: 18px;
+}
+
+#basicprice {
+    width: 100%;
+}
+
+.business_wrap .header_left,
+.business_wrap .title_content,
+.pro_wrap .header_left,
+.pro_wrap .title_content,
+.business_wrap .footer_left,
+.pro_wrap .footer_left {
+    display: none;
+}
+
+.business_wrap .header_right,
+.business_wrap .basic_content,
+.pro_wrap .header_right,
+.pro_wrap .basic_content,
+.business_wrap .footer_right,
+.pro_wrap .footer_right {
+    flex: unset;
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}
+
+.footer_right {
+    text-align: center;
+}
+
+
+/** Media Query **/
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1054px;
+    }
+}
+
+@media (max-width: 1199.9px) {
+
+    .basic_wrap {
+        max-width: 480px;
+    }
+
+    .business_wrap,
+    .pro_wrap {
+        max-width: 225px;
+    }
+
+
+    .basic_wrap .header_left,
+    .basic_wrap .title_content,
+    .basic_wrap .footer_left,
+    .business_wrap .header_left,
+    .business_wrap .title_content,
+    .business_wrap .footer_left,
+    .pro_wrap .header_left,
+    .pro_wrap .title_content,
+    .pro_wrap .footer_left {
+        max-width: 257px;
+        flex: unset;
+        width: 100%;
+    }
+
+    .basic_wrap .header_right,
+    .basic_wrap .basic_content,
+    .basic_wrap .footer_right,
+    .business_wrap .header_right,
+    .business_wrap .basic_content,
+    .business_wrap .footer_right,
+    .pro_wrap .header_right,
+    .pro_wrap .basic_content,
+    .pro_wrap .footer_right {
+        max-width: 223px;
+        flex: unset;
+        width: 100%;
+    }
+
+    .pro_wrap .footer_right {
+        border: none
+    }
+}
+
+@media (max-width: 991.9px) {
+    .pricing {
+        margin-top: 50px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #basicprice {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .basic_wrap,
+    .business_wrap,
+    .pro_wrap {
+        max-width: 100%;
+        background: #fff;
+        box-shadow: 0px 5px 15px -10px rgba(0, 0, 0, 0.75);
+        margin-bottom: 50px;
+    }
+
+    .business_wrap {
+        margin-top: 20px
+    }
+
+
+    .business_wrap .title_content,
+    .pro_wrap .title_content {
+        display: block;
+    }
+
+    .header_left {
+        display: none;
+    }
+
+    .card-body li .basic_content {
+        border: none
+    }
+
+    .basic_wrap .title_content,
+    .business_wrap .title_content,
+    .pro_wrap .title_content {
+        max-width: 257px;
+    }
+
+    .basic_wrap .header_right,
+    .business_wrap .header_right,
+    .pro_wrap .header_right {
+        max-width: 100%;
+    }
+
+    .basic_wrap .basic_content,
+    .business_wrap .basic_content,
+    .pro_wrap .basic_content {
+        float: left;
+        max-width: 243px;
+    }
+
+
+    .basic_wrap .footer_right,
+    .business_wrap .footer_right,
+    .pro_wrap .footer_right {
+        max-width: 100%;
+        border: none;
+    }
+
+}
+
+@media (max-width: 533.9px) {
+    #basicprice {
+        max-width: 320px;
+    }
+
+    .basic_wrap .title_content,
+    .business_wrap .title_content,
+    .pro_wrap .title_content {
+        max-width: 220px;
+    }
+
+    .basic_wrap .basic_content,
+    .business_wrap .basic_content,
+    .pro_wrap .basic_content {
+        float: left;
+        max-width: 100px;
+        font-size: 12px;
+    }
+
+    .card-header h6 {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    .card-body li .title_content p {
+        padding-left: 38px;
+        padding-right: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 358px) {
+    #basicprice {
+        max-width: 290px;
+    }
+
+    .basic_wrap .title_content,
+    .business_wrap .title_content,
+    .pro_wrap .title_content {
+        max-width: 212px;
+    }
+
+    .card-body li .title_content p {
+        padding-right: 10px;
+    }
+
+    .basic_wrap .basic_content,
+    .business_wrap .basic_content,
+    .pro_wrap .basic_content {
+        max-width: 78px;
+    }
+}
